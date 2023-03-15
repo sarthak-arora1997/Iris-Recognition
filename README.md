@@ -6,7 +6,7 @@ Sarthak Arora, Erin Josephine Donnelly, Yo Jeremijenko-Conley
 
 Overview
 --------
-The code in IrisRecognition.py (with subfunctions IrisLocalization, IrisNormalization, ImageEnhancement, FeatureExtraction, IrisMatching, and PerformanceEvaluation) implements iris localization and matching as detailed in the assignment instructions provided in GroupProject_Fall2021.pdf. Using the provided set of eye images from the CASIA Iris Image Database (version 1.0), the program successfully localizes the iris bounded by the pupil and the outer boundary of the iris, normalizes the iris using polar coordinates, enhances the image using histogram equalization, extracts iris features, and matches eye images from a training set to those of the testing set with an average above 75% accuracy. Specific methods, parameter recommendations, and other details of the process were gleaned from the provided paper *Personal Identification Based on Iris Texture Analysis* by Li Ma, et al. (2003).
+The code in IrisRecognition.py (with subfunctions IrisLocalization, IrisNormalization, ImageEnhancement, FeatureExtraction, IrisMatching, and PerformanceEvaluation) implements iris localization and matching as detailed in the assignment instructions provided in GroupProject_Fall2021.pdf. Using the provided set of eye images from the CASIA Iris Image Database (version 1.0), the program successfully localizes the iris bounded by the pupil and the outer boundary of the iris, normalizes the iris using polar coordinates, enhances the image using histogram equalization, extracts iris features, and matches eye images from a training set to those of the testing set with an average above *75% accuracy*.
 
 
 Program Logic
